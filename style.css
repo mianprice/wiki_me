@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+* {
+  text-align: center;
+  font-family: Abel, 'sans-serif';
+}
+
+body {
+  background-image: url(congruent_pentagon.png);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+li {
+  text-align: left;
+}
+
+.place {
+  width: 100%;
+  text-align: center
+}
+
+.travel-list {
+  list-style-type: none;
+  width: 100%;
+  align-items: center;
+  padding-left: 0
+}
+
+.travel-list > li,h2,h3 {
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-list {
+  width: 100%;
+}
+
+.header-list-element {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.header-list-half {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.header-list-element,.header-list-half > h2,h3,ul,p {
+  width: 100%;
+  align-items: center;
+}
